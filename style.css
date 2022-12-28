@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow: hidden;
+  /* background: black; */
+}
+
+#canvas1 {
+  position: relative;
+  width: 800px;
+  height: 700px;
+  background: rebeccapurple;
+}
+
+img {
+  display: none;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+}
+
+#container {
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+}
+
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#enemy_fly,
+#enemy_plant,
+#enemy_spider_big,
+#fire {
+  display: none;
+}
